@@ -1,0 +1,49 @@
+{
+  "sub_units": [
+    { "text": "Unit-2 SubUnit-1 <span style='font-size:10px'>small text</span>", "class": "class-1", "link_name": "b", "hash": "#01" },
+    { "text": "Unit-2 SubUnit-2", "class": "none", "link_name": "b", "hash": "#02" },
+    { "text": "Unit-2 SubUnit-3", "class": "none", "link_name": "b", "hash": "#03" },
+    { "text": "Unit-2 SubUnit-4", "class": "none", "link_name": "b", "hash": "#04" },
+    { "text": "Unit-2 SubUnit-5", "class": "none", "link_name": "b", "hash": "#05" }
+  ],
+  "contents": {
+    "default": "#01", 
+    "#01": [
+      {
+        "anchor_id": "01a","page_number": { "text": "000" },"button": { "text": "●●#01コンテンツタイトル●●", "class": "button-class-1", "path": "/06p/sei/1/004/", "icon": "icon-movie" }
+      }
+    ],
+    "#02": [
+      {
+        "anchor_id": "02a","page_number": { "text": "000" },"button": { "text": "●●#02コンテンツタイトル●●", "class": "button-class-1", "path": "/06p/sei/1/005/", "icon": "icon-sound" }
+      },
+      {
+        "anchor_id": "02b","page_number": { "text": "000" },"button": { "text": "●●#02コンテンツタイトル●●", "class": "button-class-1", "path": "/06p/sei/1/006/", "icon": "icon-sound" }
+      }
+    ],
+    "#03": [
+      {
+        "anchor_id": "03a","page_number": { "text": "000" },"button": { "text": "●●#02コンテンツタイトル●●", "class": "button-class-1", "path": "/06p/sei/1/005/", "icon": "icon-sound" }
+      },
+      {
+        "anchor_id": "03b","page_number": { "text": "000" },"button": { "text": "●●#02コンテンツタイトル●●", "class": "button-class-1", "path": "/06p/sei/1/006/", "icon": "icon-sound" }
+      }
+    ],
+    "#04": [
+      {
+        "anchor_id": "04a","page_number": { "text": "000" },"button": { "text": "●●#02コンテンツタイトル●●", "class": "button-class-1", "path": "/06p/sei/1/005/", "icon": "icon-sound" }
+      },
+      {
+        "anchor_id": "05b","page_number": { "text": "000" },"button": { "text": "●●#02コンテンツタイトル●●", "class": "button-class-1", "path": "/06p/sei/1/006/", "icon": "icon-sound" }
+      }
+    ],
+    "#05": [
+      {
+        "anchor_id": "05a","page_number": { "text": "000" },"button": { "text": "●●#02コンテンツタイトル●●", "class": "button-class-1", "path": "/06p/sei/1/005/", "icon": "icon-sound" }
+      },
+      {
+        "anchor_id": "05b","page_number": { "text": "000" },"button": { "text": "●●#02コンテンツタイトル●●", "class": "button-class-1", "path": "/06p/sei/1/006/", "icon": "icon-sound" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "subject":"ダミーダミー ○年上",
+  "introductionTitle":"はじめにお読みください",
+  "introductionText":"このサイトを使うみなさんは、最初に下のボタンをおして、<br>書かれていることを、先生や家の人といっしょに確かめてください。",
+  "unit_titles": [
+    {"title":"TitleA <div class='test'><h1>見出し</h1> <p>本文 <span style='font-size:14px'>small text</span></p></div>","link_name":"a"},
+    {"title":"TitleB","link_name":"b"},
+    {"title":"TitleC","link_name":"c"},
+    {"title":"TitleD","link_name":"d"},
+    {"title":"TitleE","link_name":"e"},
+    {"title":"TitleF","link_name":"f"},
+    {"title":"TitleG","link_name":"g"},
+    {"title":"TitleH","link_name":"h"},
+    {"title":"TitleI","link_name":"i"},
+    {"title":"TitleJ","link_name":"j"}
+  ]
+}

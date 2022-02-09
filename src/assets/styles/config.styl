@@ -1,0 +1,20 @@
+//イントロダクション、利用規約、Copyright表示切替
+.display-option
+    display-frag = true //trueは表示、falseは非表示
+    if display-frag != true
+        display: none
+
+// Function
+//横幅計算関数
+//elemWidth=画像もしくはdivのWidth、parentWidth=親要素のWidth
+elemWidthSize(elemWidth,parentWidth)
+    unit(elemWidth * 0.5 / parentWidth * 100, '%')
+
+//横位置LEFT計算関数
+//elemLeft=XD上の画像もしくはdivのX値、parentLeft=親要素のX値、parentWidth=親要素のWidth
+elemLeft(elemLeft,parentLeft,parentWidth)
+    unit((elemLeft - parentLeft) / parentWidth * 100, '%')
+
+elemTop(elemTop,parentTop,parentHeight)
+    unit((elemTop - parentTop) / parentHeight * 100, '%')
+    
