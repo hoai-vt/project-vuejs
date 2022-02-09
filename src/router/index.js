@@ -129,6 +129,9 @@ const routes = [
       learningUnitJson: LearningUnit01,
     },
   },
+  {
+    rewrites: [{ source: "/(.*)", destination: "/" }],
+  },
 ];
 
 const router = createRouter({
